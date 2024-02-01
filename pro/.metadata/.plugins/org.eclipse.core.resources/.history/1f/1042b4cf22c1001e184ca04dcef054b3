@@ -1,0 +1,9 @@
+package in.co.incobyte.Test;
+
+public class MyException  extends Exception{
+	MyException()
+	{
+		super("neagtive not allowed");
+	}
+
+}

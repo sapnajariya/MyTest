@@ -1,0 +1,83 @@
+package in.co.incobyte.Exam;
+
+public class StringCls {
+	
+	public static int  add(String s1) throws MyException
+	{
+		int sum=0;
+		if(s1.equals(""))
+		{ 
+			//System.out.println("string is empty");
+		}
+		
+		else if(s1.trim()!=null&&s1.length()>=10)
+		{
+			
+		String[]arr=s1.split(",");
+		String s2="";
+		int []arr1=new int[arr.length];
+		int count=0;
+		
+		for(int i=0;i<arr.length;i++)
+		{
+			s2=arr[i];
+			
+			arr1[count]=Integer.parseInt(s2);
+			
+			
+			count++;
+			
+			
+			
+			}
+			
+			
+	
+			
+		
+		
+		/*
+		 * f(arr1.equals(null)) { System.out.println("empty"); }i
+		 */
+		
+			for(int j=0;j<arr1.length;j++)
+			{
+			
+			 sum=arr1[j]+sum;
+			 
+			 if(sum>=0) {
+				
+				 //return sum;}
+			 }
+			 else {
+				 throw new MyException();
+			 }
+			 
+			 
+			 
+			}
+		
+		return sum;}
+		
+			
+		return 0;
+		
+	}
+	
+	public static void main(String[] args) throws MyException {
+		// TODO Auto-generated method stub
+		String s="12,23,45,56,23,4,5,6,7,7,8,";
+		
+		
+			
+			int result=add(s);
+			System.out.print(result);
+		}
+		
+		
+		
+
+	}
+
+
+

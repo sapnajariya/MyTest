@@ -1,0 +1,20 @@
+package in.co.incobyte.Test;
+
+import static org.junit.Assert.assertNull;
+
+import org.junit.Test;
+
+import in.co.incobyte.Exam.MyException;
+import in.co.incobyte.Exam.StringCls;
+
+public class TestClass {
+
+	
+@Test
+public void testAdd() throws Exception
+{
+	 assertNull(StringCls.add("1,2"));
+}
+	}
+
+
