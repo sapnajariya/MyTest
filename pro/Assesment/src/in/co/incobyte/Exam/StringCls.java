@@ -36,9 +36,7 @@ public class StringCls {
 			
 		
 		
-		/*
-		 * f(arr1.equals(null)) { System.out.println("empty"); }i
-		 */
+		
 		
 			for(int j=0;j<arr1.length;j++)
 			{
